@@ -2,7 +2,7 @@
   "name": "todo-with-github-actions-and-jest",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kakeechu.github.io/DevOps-Todo-Lesson--190325-main",
+  "homepage": "https://kakechu.github.io/DevOps-Todo-Lesson--190325-main",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
