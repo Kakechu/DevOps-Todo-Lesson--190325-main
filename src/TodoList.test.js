@@ -5,4 +5,7 @@ it('renders No task found when the list is empty', () => {
   render(<TodoList />);
   const linkElement = screen.getByText(/No task found/i);
   expect(linkElement).toBeInTheDocument();
+
+  expect(1 + 1).toBe(3);
+
 });
