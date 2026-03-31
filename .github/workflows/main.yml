@@ -32,7 +32,7 @@ jobs:
           cache-dependency-path: package-lock.json
 
       - run: npm ci
-      - run: npm run build --if-present
+
 
       - name: Run tests (if present)
         run: |
@@ -41,6 +41,8 @@ jobs:
           else
             echo "no test script defined, skipping tests"
           fi
+
+      - run: npm run build --if-present
 
       - name: Configure github pages
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
