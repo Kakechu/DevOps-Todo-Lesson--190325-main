@@ -6,6 +6,6 @@ it('renders No task found when the list is empty', () => {
   const linkElement = screen.getByText(/No task found/i);
   expect(linkElement).toBeInTheDocument();
 
-  expect(1 + 1).toBe(3);
+  //expect(1 + 1).toBe(3);
 
 });
